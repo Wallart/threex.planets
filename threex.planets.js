@@ -397,7 +397,6 @@ THREEx.Planets._RingGeometry = function ( innerRadius, outerRadius, thetaSegment
 		this.faceVertexUvs[0].push(uvs);
 	}
 
-	this.computeCentroids();
 	this.computeFaceNormals();
 
 	this.boundingSphere = new THREE.Sphere( new THREE.Vector3(), outerRadius );
